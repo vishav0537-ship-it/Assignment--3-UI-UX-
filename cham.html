@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Zoom </title>
+    <style>
+        .container {
+            border: 2px solid white;
+            width: 824px;
+            height: 518px;
+            margin: auto;
+            position: relative;
+            top: 15vh;
+            background-color: #fff;
+            transition: all 0.2s ease;
+            border-radius: 15px;
+        }
+
+        .container:hover {
+            transform: translateY(3px);
+        }
+
+        .body {
+
+            background-color: black;
+            margin: auto 0px;
+
+        }
+
+        .bgimg {
+            position: fixed;
+            opacity: 0.4;
+            
+        }
+
+        .sign {
+            text-decoration: none;
+        }
+
+        .container2 {
+            border-radius: 15px;
+
+            width: 481px;
+            height: 500px;
+
+            background-color: #faf8f800;
+
+            position: relative;
+            left: 20.8vw;
+            bottom: 41vh;
+
+        }
+
+        .cont2img {
+            height: 520px;
+            width: 503px;
+            border-radius: 15px;
+            position: relative;
+            top: 2.56vh;
+            left: 0.3vh;
+        }
+
+        .email {
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+
+        .button {
+            border: 1px solid rgba(19, 132, 160, 0.942);
+            padding-left: 4px;
+    margin-left: 68px;
+        }
+        .input-text{
+            padding: 0 0 0 0;
+                width: 18vw;
+                margin-bottom: 7px;
+    text-align: center;
+    padding: 0 0 0 21px;
+        }
+        #Forgot{
+            padding-left: 40px;
+            text-decoration: none;
+        }
+        #Remember{
+            padding-left: 37px;
+        }
+        .submit{
+           margin-left: 118px;
+    height: 23px;
+    width: 78px;
+            color: rgb(234, 241, 241);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: green;
+        }
+        .acc{
+            padding-left: 50px;
+        }
+        #rem{
+            display: inline-block;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <img src="enjoy-a-delicious-an..._imresizer.jpg"
+        alt="" class="bgimg">
+
+    <div class="container">
+        <h1 class="input-text">Meal Zoom
+        </h1>
+        <div>
+            <h2 class="input-text">Welcome Back</h2>
+        </div>
+        <p class="input-text">Sign in with your email and password.</p>
+        <div class="email  input-text">Email Address</div> <input class="button" type="email" value="" placeholder="Email address">
+        <div class=" input-text"> password </div> <input class="button " type="password" value="" placeholder="password">
+        <div> <input  class="" type="checkbox"  id="Remember"> <p id="rem">Remember Me</p>
+            <a id="Forgot" href="#">Forgot password?</a>
+        </div>
+        <div> <input class="submit"  type="submit" value="Sign In "></div>
+        <div class="acc"> Don't have an account? <a class="sign " href="#">Sign up</a></div>
+        <div class="container2">
+
+            <img class="cont2img" src="food_imresizer.jpg" alt="Soory you couldnt have access to image" srcset="">
+        </div>
+    </div>
+</body>
+
+</html>
